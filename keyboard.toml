@@ -17,7 +17,6 @@ low_active = true
 [storage]
 # Required for Vial to dynamically remember changes without flashing
 enabled = true
-clear_storage = true
 
 [vial]
 enabled = true
