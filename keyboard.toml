@@ -29,7 +29,7 @@ layers = 4
 keymap = [
     # Layer 0
     [
-        ["LCtl(C)", "LCtl(V)", "LCtl(X)", "Escape", "Mute", "Play", "Next", "MO(1)"]
+        ["Macro1", "Macro2", "Macro0", "Escape", "Mute", "Play", "Next", "MO(1)"]
     ],
     # Layer 1 (standard blank transparent keys '__')
     [
@@ -44,3 +44,25 @@ keymap = [
         ["__", "__", "__", "__", "__", "__", "__", "__"]
     ]
 ]
+
+[[behavior.macro.macros]]
+operations = [
+    { operation = "down", keycode = "LCtrl" },
+    { operation = "tap", keycode = "X" },
+    { operation = "up", keycode = "LCtrl" }
+]
+
+[[behavior.macro.macros]]
+operations = [
+    { operation = "down", keycode = "LCtrl" },
+    { operation = "tap", keycode = "C" },
+    { operation = "up", keycode = "LCtrl" }
+]
+
+[[behavior.macro.macros]]
+operations = [
+    { operation = "down", keycode = "LCtrl" },
+    { operation = "tap", keycode = "V" },
+    { operation = "up", keycode = "LCtrl" }
+]
+Use code with caution.
