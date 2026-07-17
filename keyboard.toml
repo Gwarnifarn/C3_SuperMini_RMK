@@ -29,11 +29,11 @@ layers = 4
 keymap = [
     # Layer 0
     [
-        ["Macro1", "Macro2", "Macro0", "Escape", "MediaMute", "MediaPlayPause", "MediaNextTrack", "MO(1)"]
+        ["Macro1", "Macro2", "Macro0", "Escape", "AudioMute", "KbMediaPlayPause", "KbMediaNextTrack", "MO(1)"]
     ],
     # Layer 1 (standard blank transparent keys '__')
     [
-        ["__", "__", "__", "__", "MediaVolumeUp", "MediaVolumeDown", "__", "__"]
+        ["__", "__", "__", "__", "KbVolumeUp", "KbVolumeDown", "__", "__"]
     ],
     # Layer 2 
     [
