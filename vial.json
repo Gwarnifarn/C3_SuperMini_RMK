@@ -1,37 +1,19 @@
-{
-    "name": "HID Keyboard",
-    "vendorId": "0x4C4B",
-    "productId": "0x4643",
-    "lighting": "none",
-    "matrix": {
-        "rows": 4,
-        "cols": 3
-    },
-    "layouts": {
-        "keymap": [
-            [
-                "0,0",
-                "0,1",
-                "0,2"
-            ],
-            [
-                "1,0",
-                "1,1",
-                "1,2"
-            ],
-            [
-                "2,0",
-                "2,1",
-                "2,2"
-            ],
-            [
-                {
-                    "y": -2,
-                    "x": 4
-                },
-                "3,0",
-                "3,2"
-            ]
-        ]
-    }
+json{
+  "name": "C3 Super Mini Macropad",
+  "lighting": "none",
+  "matrix": { "rows": 1, "cols": 8 },
+  "layouts": {
+    "keymap": [
+      [
+        {"label": "B1", "x": 0, "y": 0},
+        {"label": "B2", "x": 1, "y": 0},
+        {"label": "B3", "x": 2, "y": 0},
+        {"label": "B4", "x": 3, "y": 0},
+        {"label": "B5", "x": 4, "y": 0},
+        {"label": "B6", "x": 5, "y": 0},
+        {"label": "B7", "x": 6, "y": 0},
+        {"label": "B8", "x": 7, "y": 0}
+      ]
+    ]
+  }
 }
