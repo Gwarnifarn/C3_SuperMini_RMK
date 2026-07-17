@@ -1,8 +1,8 @@
 # Documentation: https://rmk.rs/docs/configuration.html
 [keyboard]
 name = "C3 Super Mini Macropad"
-product_id = "0x1001"
-vendor_id = "0x303a"
+product_id = 0x1001
+vendor_id = 0x303a
 
 [matrix]
 # Uses a single-layer matrix array map for standard individual button lines
