@@ -1,4 +1,4 @@
-json{
+{
   "name": "C3 Super Mini Macropad",
   "lighting": "none",
   "matrix": { "rows": 1, "cols": 8 },
