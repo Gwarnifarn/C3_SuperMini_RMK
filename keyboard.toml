@@ -9,10 +9,10 @@ chip = "esp32c3"
 # Uses a single-layer matrix array map for standard individual button lines
 matrix_type = "direct_pin"
 direct_pins = [
-    ["PIN_20", "PIN_9", "PIN_2", "PIN_1", "PIN_21", "PIN_10", "PIN_3", "PIN_0"]
+    ["GPIO20", "GPIO9", "GPIO2", "GPIO1", "GPIO21", "GPIO10", "GPIO3", "GPIO0"]
 ]
 # Pins pull down to ground on press (Change to false if using pull-up logic)
-direct_pin_low_active = true
+low_active = true
 
 [storage]
 # Required for Vial to dynamically remember changes without flashing
@@ -27,20 +27,20 @@ rows = 1
 cols = 8
 layers = 4
 keymap = [
-    # Layer 0 (Default media and function keys layout)
+    # Layer 0
     [
-        ["KC_F13", "KC_F14", "KC_F15", "KC_F16", "KC_MUTE", "KC_MPLY", "KC_MNXT", "MO(1)"]
+        ["LCtl(C)", "LCtl(V)", "LCtl(X)", "Escape", "Mute", "Play", "Next", "MO(1)"]
     ],
-    # Layer 1 (Activated when holding the last key)
+    # Layer 1 (standard blank transparent keys '__')
     [
-        ["KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_VOLU", "KC_VOLD", "KC_TRNS", "KC_TRNS"]
+        ["__", "__", "__", "__", "VolUp", "VolDown", "__", "__"]
     ],
-    # Layer 2 (Empty structural placeholders)
+    # Layer 2 
     [
-        ["KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS"]
+        ["__", "__", "__", "__", "__", "__", "__", "__"]
     ],
-    # Layer 3 (Empty structural placeholders)
+    # Layer 3 
     [
-        ["KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS"]
+        ["__", "__", "__", "__", "__", "__", "__", "__"]
     ]
 ]
