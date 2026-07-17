@@ -3,6 +3,7 @@
 name = "C3 Super Mini Macropad"
 product_id = 0x1001
 vendor_id = 0x303a
+chip = "esp32c3"
 
 [matrix]
 # Uses a single-layer matrix array map for standard individual button lines
