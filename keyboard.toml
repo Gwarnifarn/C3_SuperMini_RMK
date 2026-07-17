@@ -4,6 +4,10 @@ name = "C3 Super Mini Macropad"
 product_id = 0x1001
 vendor_id = 0x303a
 chip = "esp32c3"
+# Turn off the broken wired USB-HID engine to stop the crash loops
+usb_enable = false
+# Activate the wireless BLE engine designed for the C3 architecture
+ble_enable = true
 
 [matrix]
 # Uses a single-layer matrix array map for standard individual button lines
