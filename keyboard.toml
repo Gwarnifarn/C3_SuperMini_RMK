@@ -45,21 +45,23 @@ keymap = [
     ]
 ]
 
-[behavior.macro]
-macros = [
-    [
-        { operation = "down", keycode = "LCtrl" },
-        { operation = "tap", keycode = "X" },
-        { operation = "up", keycode = "LCtrl" }
-    ],
-    [
-        { operation = "down", keycode = "LCtrl" },
-        { operation = "tap", keycode = "C" },
-        { operation = "up", keycode = "LCtrl" }
-    ],
-    [
-        { operation = "down", keycode = "LCtrl" },
-        { operation = "tap", keycode = "V" },
-        { operation = "up", keycode = "LCtrl" }
-    ]
+[[behavior.macro.macros]]
+operations = [
+    { operation = "down", keycode = "LCtrl" },
+    { operation = "tap", keycode = "X" },
+    { operation = "up", keycode = "LCtrl" }
+]
+
+[[behavior.macro.macros]]
+operations = [
+    { operation = "down", keycode = "LCtrl" },
+    { operation = "tap", keycode = "C" },
+    { operation = "up", keycode = "LCtrl" }
+]
+
+[[behavior.macro.macros]]
+operations = [
+    { operation = "down", keycode = "LCtrl" },
+    { operation = "tap", keycode = "V" },
+    { operation = "up", keycode = "LCtrl" }
 ]
