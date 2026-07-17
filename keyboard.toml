@@ -1,8 +1,8 @@
 # Documentation: https://rmk.rs/docs/configuration.html
 [keyboard]
 name = "C3 Super Mini Macropad"
-product_id = 0x1001
-vendor_id = 0x303a
+vendor_id = 0xfeed
+product_id = 0x0001
 chip = "esp32c3"
 # Turn off the broken wired USB-HID engine to stop the crash loops
 usb_enable = false
